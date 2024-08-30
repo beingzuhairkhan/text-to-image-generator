@@ -41,7 +41,7 @@ function App() {
       const res = await fetch("https://api-inference.huggingface.co/models/CompVis/stable-diffusion-v1-4", {
         method: "POST",
         headers: {
-          "Authorization": "Bearer hugging_face_access_token",
+          "Authorization": "Bearer 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",
           "Content-Type": "application/json"
         },
         body: JSON.stringify({ inputs: prompt }),
